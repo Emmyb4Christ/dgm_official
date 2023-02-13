@@ -1,5 +1,9 @@
+import HeroAbout from "./components/home/HeroAbout";
+
 export default function Home() {
   return (
-    <div className="">Home</div>
+    <div className="">
+      <HeroAbout />
+    </div>
   )
 }

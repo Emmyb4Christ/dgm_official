@@ -19,7 +19,7 @@ export default function NavBar() {
                         onClick={() => setIsMenuOpen(true)}
                     ></i>
                 </div>
-                <div className="hidden lg:flex justify-center gap-[20px]">
+                <div className="hidden lg:flex justify-center gap-[10px]">
                     <Link className="text-xl opacity-90 text font-robotoCondensed focus:bg-orange-600 p-4 active:bg-orange-500" href='/'>Home</Link>
                     <Link className="text-xl opacity-90 text font-robotoCondensed focus:bg-orange-600 p-4 active:bg-orange-500" href='/about'>About</Link>
                     <Link className="text-xl opacity-90 text font-robotoCondensed focus:bg-orange-600 p-4 active:bg-orange-500" href='/sermon'>Sermon</Link>
